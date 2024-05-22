@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "red-flix-api.vercel.app/api/v1/";
+const baseURL = "https://red-flix-api.vercel.app/api/v1/";
 
 const privateClient = axios.create({
   baseURL,
