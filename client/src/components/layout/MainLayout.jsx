@@ -16,9 +16,6 @@ const MainLayout = () => {
 
   const { user } = useSelector((state) => state.user);
 
-
-  /* Auto Log in */
-
   useEffect(() => {
     const authUser = async () => {
       const { response, err } = await userApi.getInfo();

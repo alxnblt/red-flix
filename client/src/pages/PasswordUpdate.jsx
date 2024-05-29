@@ -53,7 +53,7 @@ const PasswordUpdate = () => {
       navigate("/");
       dispatch(setUser(null));
       dispatch(setAuthModalOpen(true));
-      toast.success("Update password success! Please login");
+      toast.success("Update password success! Please re-login");
     }
   };
 

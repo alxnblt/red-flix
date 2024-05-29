@@ -249,7 +249,7 @@ const MediaDetail = () => {
           {/* media posters */}
 
           {/* media reviews */}
-            <MediaReview reviews={media.reviews} media={media} mediaType={mediaType} />
+          <MediaReview reviews={media.reviews} media={media} mediaType={mediaType} />
           {/* media reviews */}
 
           {/* media recommendation */}
