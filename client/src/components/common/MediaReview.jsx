@@ -49,7 +49,7 @@ const ReviewItem = ({ review, onRemoved }) => {
           <Typography variant="body1" textAlign="justify">
             {review.content}
           </Typography>
-          {user && user.id === review.user.id && (
+          {/* {user && user.id === review.user.id && (
             <LoadingButton
               variant="contained"
               startIcon={<DeleteIcon />}
@@ -65,7 +65,7 @@ const ReviewItem = ({ review, onRemoved }) => {
             >
               remove
             </LoadingButton>
-          )}
+          )} */}
         </Stack>
       </Stack>
     </Box>

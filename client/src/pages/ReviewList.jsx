@@ -73,7 +73,7 @@ const ReviewItem = ({ review, onRemoved }) => {
         </Stack>
       </Box>
 
-      <LoadingButton
+      {/* <LoadingButton
         variant="contained"
         sx={{
           position: { xs: "relative", md: "absolute" },
@@ -87,7 +87,7 @@ const ReviewItem = ({ review, onRemoved }) => {
         onClick={onRemove}
       >
         remove
-      </LoadingButton>
+      </LoadingButton> */}
     </Box>
   );
 };
