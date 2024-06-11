@@ -41,7 +41,7 @@ const UserMenu = () => {
               >
                 <ListItemIcon>{item.icon}</ListItemIcon>
                 <ListItemText disableTypography primary={
-                  <Typography textTransform="uppercase">{item.display}</Typography>
+                  <Typography textTransform="uppercase">{item.display}</Typography>//display user menu
                 } />
               </ListItemButton>
             ))}
